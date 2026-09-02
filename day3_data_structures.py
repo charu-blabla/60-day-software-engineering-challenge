@@ -15,8 +15,8 @@ for num in arr:
     else:
         freq[num]=1
 
-for num in range (len(arr),-1,,-1):
-    rev.append(arr(num))
+for num in range (len(arr)-1,-1,,-1):
+    rev.append(arr[num])
 
 print(f"sum: {sum}\nmax: {max}\nmin: {min}\n")
 for f in arr:
