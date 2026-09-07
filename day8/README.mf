@@ -1,0 +1,9 @@
+Use of Arrays in Real Systems
+
+Arrays are used in real systems to store and manage multiple values of the same data type in an organized way. 
+They provide fast access to elements using an index, making them useful when large amounts of data need to be processed efficiently.
+
+For example, operating systems use arrays to manage processes, memory blocks, and file information. In games, arrays can store player scores, game objects, maps, or inventory items.
+Databases and applications use arrays or similar data structures to temporarily store records and process data. Arrays are also commonly used in image processing, where pixels can be represented as a two-dimensional array.
+
+Because arrays store elements in contiguous memory locations, accessing a particular element is generally very fast. However, their fixed size in languages such as C and C++ can make resizing less convenient.
